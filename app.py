@@ -12,7 +12,7 @@ import plotly.graph_objects as go
 import os
 from datetime import datetime
 
-from src.live_aqi import (
+from live_aqi import (
     MAJOR_INDIAN_CITIES,
     AQI_CATEGORIES,
     search_indian_cities,
