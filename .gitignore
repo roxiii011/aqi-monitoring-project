@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment Variables & Secrets
+.env
+.streamlit/secrets.toml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Large models / zips (if needed, but local models are preserved)
