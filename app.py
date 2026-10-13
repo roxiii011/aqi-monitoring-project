@@ -19,7 +19,7 @@ from live_aqi import (
     fetch_live_air_quality,
     get_aqi_category_info
 )
-from src.health_advisory import get_advisory_by_category
+from health_advisory import get_advisory_by_category
 
 # ---------- Page Configuration ----------
 st.set_page_config(
